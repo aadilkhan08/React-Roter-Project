@@ -1,8 +1,60 @@
-# React + Vite
+# React Router Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple project demonstrating the use of React Router for navigation between pages in a React application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Routing**: Smooth navigation between different pages without reloading.
+- **Dynamic Routes**: Routes change based on the URL path.
+- **Nested Routes**: Structured navigation to support child components within parent routes.
+
+## Technologies Used
+
+- **React**: Frontend library for building user interfaces.
+- **React Router**: Library for routing in React applications.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/aadilkhan08/React-Roter-Project.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd React-Roter-Project
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the application:
+
+   ```bash
+   npm run dev
+   ```
+2. Open [http://localhost:](http://localhost:3000)5173 to view it in your browser.
+
+## Folder Structure
+
+- `src/`
+  - `components/`: Contains all reusable components.
+  - `App.js`: Main component where routes are defined.
+  - `index.js`: Entry point for the React app.
+
+## Contributing
+
+Feel free to fork this project, create pull requests, or open issues to improve the project!
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+**Author:** Aadil Khan
